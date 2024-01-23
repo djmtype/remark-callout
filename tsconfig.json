@@ -3,7 +3,7 @@
         "baseUrl": ".",
         "moduleResolution": "NodeNext",
         "outDir": "./dist",
-        "module": "ESNext",
+        "module": "NodeNext",
         "target": "ESNext",
         "sourceMap": true,
         "declaration": true,

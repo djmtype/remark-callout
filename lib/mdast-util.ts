@@ -56,7 +56,7 @@ export function calloutFromMarkdown(): Extension {
                 hName: 'span',
                 hProperties: { 
                   className: ['callout-icon'], 
-                  style: `color: ${meta.color}` 
+                  // style: `color: var(--callout-${calloutTypeText}, ${meta.color})`  
                 },
                 hChildren: svgHast.children as any
               }
