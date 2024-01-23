@@ -10,7 +10,9 @@ export function calloutFromMarkdown() {
                     children: [],
                     data: {
                         hName: 'blockquote',
-                        hProperties: { className: ['callout'] }
+                        hProperties: {
+                            className: ['callout']
+                        }
                     }
                 }, token);
             },

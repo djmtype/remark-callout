@@ -32,7 +32,9 @@ export function calloutFromMarkdown(): Extension {
           children: [],
           data: { 
             hName: 'blockquote',
-            hProperties: { className: ['callout'] }
+            hProperties: { 
+              className: ['callout'] 
+            }
           }
         }, token);
       },
